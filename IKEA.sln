@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKEA.PL", "IKEA.PL\IKEA.PL.csproj", "{2B09961F-85A7-4D79-B222-0C15BB681697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKEA.DAL", "IKEA.DAL\IKEA.DAL.csproj", "{DEE27FD8-35A7-4606-A061-64473F30527F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKEA.BLL", "IKEA.BLL\IKEA.BLL.csproj", "{3D15715C-909F-429F-9394-90EC7FB8EE89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B09961F-85A7-4D79-B222-0C15BB681697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B09961F-85A7-4D79-B222-0C15BB681697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B09961F-85A7-4D79-B222-0C15BB681697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B09961F-85A7-4D79-B222-0C15BB681697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE27FD8-35A7-4606-A061-64473F30527F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE27FD8-35A7-4606-A061-64473F30527F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE27FD8-35A7-4606-A061-64473F30527F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE27FD8-35A7-4606-A061-64473F30527F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D15715C-909F-429F-9394-90EC7FB8EE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D15715C-909F-429F-9394-90EC7FB8EE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D15715C-909F-429F-9394-90EC7FB8EE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D15715C-909F-429F-9394-90EC7FB8EE89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {228CFEE2-D7DF-4D87-91A0-3D3481F2CD1D}
+	EndGlobalSection
+EndGlobal

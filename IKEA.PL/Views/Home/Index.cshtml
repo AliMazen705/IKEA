@@ -1,0 +1,106 @@
+﻿@* @{  *@
+@*      ViewData["Title"] = "Home Page";  *@
+@*  }  *@
+
+@*  <div class="text-center">  *@
+@*      <h1 class="display-4">Welcome</h1>  *@
+@*      <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>  *@
+@*  </div> *@
+
+@* @{ *@
+@*     ViewData["Title"] = "Login"; *@
+@* } *@
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<style>
+    /* Hero Section */
+    .hero-section {
+        background: linear-gradient(135deg, #1e293b, #0f172a);
+        color: #fff;
+        padding: 100px 20px;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-top: 15px;
+            color: #e2e8f0;
+        }
+
+    /* Sections */
+    .features {
+        margin-top: 60px;
+    }
+
+    .feature-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 25px;
+        text-align: center;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        transition: 0.3s;
+        height: 100%;
+    }
+
+        .feature-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+        }
+
+        .feature-card img {
+            max-width: 80px;
+            margin-bottom: 20px;
+        }
+
+        .feature-card h4 {
+            font-size: 1.3rem;
+            color: #1e293b;
+            margin-bottom: 10px;
+        }
+
+        .feature-card p {
+            color: #475569;
+            font-size: 0.95rem;
+        }
+</style>
+
+<!-- Hero Section -->
+<div class="hero-section">
+    <h1>Welcome to IKEA Management System</h1>
+    <p>Manage your company’s departments, employees, and reports in one place.</p>
+</div>
+
+<!-- Features Section -->
+<div class="features container mt-5">
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="feature-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2910/2910768.png" alt="Departments" />
+                <h4>Departments</h4>
+                <p>Organize and monitor all company departments efficiently.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="feature-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Employees" />
+                <h4>Employees</h4>
+                <p>Keep track of employees’ information and roles easily.</p>
+            </div>
+        </div>
+
+       
+    </div>
+</div>
+
+

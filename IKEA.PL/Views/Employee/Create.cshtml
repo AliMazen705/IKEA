@@ -1,0 +1,32 @@
+﻿@using IKEA.BLL.Services
+@using IKEA.DAL.Common.Enum
+@using IKEA.DAL.Models.Employees
+@* @model CreatedEmployeeDto *@
+@* @inject IDepartmentService departmentService *@
+@* @{ *@
+@*     ViewData["Title"] = "Employees"; *@
+
+@* } *@
+
+
+@* @{ *@
+@*     ViewData["Title"] = "Create"; *@
+
+@*     var Departments = new SelectList( departmentService.GetAllDepartments(), *@
+@*     nameof(DepartmentDetailsToReturnDTO.Id), *@
+@*     nameof(DepartmentDetailsToReturnDTO.Name)); *@
+@* } *@
+
+
+
+
+
+<partial name="Partial/CreateEditEmployeePartial" />
+
+
+ @section ValidationScripts 
+ { 
+     <partial name="_ValidationScriptsPartial" /> 
+ } 
+
+
